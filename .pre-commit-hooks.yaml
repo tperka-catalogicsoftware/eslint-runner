@@ -1,0 +1,10 @@
+-   id: eslint
+    name: eslint
+    description: ''
+    entry: npm install && npm run lint
+    language: node
+    types: [javascript, ts]
+    args: []
+    require_serial: false
+    additional_dependencies: ["eslint@8.35.0"]
+    minimum_pre_commit_version: '0'
